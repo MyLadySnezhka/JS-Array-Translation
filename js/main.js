@@ -2,14 +2,14 @@ const elSlider = document.querySelector('.slider');
 const elOnline = document.querySelector('.online');
 
 const imagesArr = [
-    '/images/anger.png',
+    './images/anger.png',
     './images/bad-habits.png',
-    '../images/email.png',
-    '/images/sience.png',
+    './images/email.png',
+    './images/sience.png',
     './images/sport.png',
 ]
 
-const startImage = "url('/images/filmsplash.png')";
+const startImage = "url('./images/filmsplash.png')";
 elOnline.style.backgroundImage = startImage;
 
 const renderSlider = () => {
