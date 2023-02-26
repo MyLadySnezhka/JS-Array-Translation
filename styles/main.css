@@ -27,4 +27,17 @@
 .item {
   width: 200px;
   height: 150px;
+  border: 2px double gray;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.item:hover {
+  cursor: pointer;
+  border: 2px double blue;
+}
+
+.shadow {
+  opacity: 0.3;
+  border: 2px double #fff;
 }/*# sourceMappingURL=main.css.map */
