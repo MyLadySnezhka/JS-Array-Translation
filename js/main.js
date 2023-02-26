@@ -9,7 +9,7 @@ const imagesArr = [
     '../images/sport.png',
 ]
 
-const startImage = "url('../images/filmsplash.png')";
+const startImage = "url('./images/filmsplash.png')";
 elOnline.style.backgroundImage = startImage;
 
 const renderSlider = () => {
@@ -35,5 +35,5 @@ elSlider.addEventListener('click', (ev) => {
             ev.target.classList.add('shadow');
             //ev.target.classList.toggle('shadow');
             };
-    console.log(ev.target.classList);
+    //console.log(ev.target.classList);
 })
